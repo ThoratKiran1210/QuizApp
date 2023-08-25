@@ -1,0 +1,47 @@
+   body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(185, 36, 185); /* Set the background color to purple */
+  }
+  
+  .quiz-container {
+    background-color: #383891; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(191, 207, 18, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .question-container {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(220, 217, 217); 
+  }
+  
+  .answer-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: white; /* Set button background color to white */
+    color: #1a237e; /* Set button text color to dark blue */
+  }
+  
+  .answer-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .score-container {
+    font-size: 18px;
+    margin-top: 20px;
+    color: white; /* Set text color to white */
+  }
+  
